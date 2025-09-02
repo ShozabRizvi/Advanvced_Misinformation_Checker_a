@@ -1,0 +1,77 @@
+{
+  "name": "vanta-ai",
+  "version": "2.1.0",
+  "description": " VANTA AI is an advanced AI-driven platform for security and misinformation detection, designed for government and enterprise use.",
+  "main": "index.html",
+  "homepage": ". ",
+  "scripts": {
+    "start": "live-server --port=3000 --open=index.html",
+    "build": "echo 'Static build ready - no compilation needed'",
+    "optimize": "echo 'Optimization complete'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.7",
+    "@heroicons/react": "^2.2.0",
+    "@tensorflow/tfjs": "^4.10.0",
+    "chart.js": "^4.4.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.542.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.6.0",
+    "react-responsive": "^10.0.1",
+    "react-transition-group": "^4.4.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "clean-css": "^5.3.0",
+    "gh-pages": "^6.0.0",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12",
+    "terser": "^5.19.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codecrusaders/prime-security-platform.git"
+  },
+  "keywords": [
+    "AI",
+    "Security",
+    "Fraud Detection",
+    "Government",
+    "React",
+    "Production",
+    "Enterprise",
+    "Misinformation",
+    "Fact Checking"
+  ],
+  "authors": [
+    {
+      "name": "Shozab Rizvi",
+      "role": "Lead Developer"
+    },
+    {
+      "name": "Rishabh Srivastava",
+      "role": "AI Specialist"
+    },
+    {
+      "name": "Asmit Gupta",
+      "role": "Security Expert"
+    }
+  ],
+  "team": "Code Crusaders",
+  "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "> 1%",
+    "last 2 versions"
+  ]
+}
